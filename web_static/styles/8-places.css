@@ -1,0 +1,57 @@
+.places h1{
+    font-size: 30px;
+    padding-left: 20px;
+    width: 100%;
+}
+.places article{
+    width: 390px;
+    font-size: 30px;
+    border: #FF5A5F 1px solid;
+    border-radius: 4px;
+    margin: 20px 5px;
+    padding: 20px;
+    text-align: center;
+}
+.places h2{
+    font-size: 30px;
+    margin: 0;
+}
+.places{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.price_by_night{
+    border: #FF5A5F 4px solid;
+    color: #FF5A5F;
+    border-radius: 50%;
+    min-width: 60px;
+    height: 60px;
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    right: 15px;
+}
+.price_by_night span{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 50px;
+}
+
+.places .information{
+    height: 80px;
+    border-bottom:#DDDDDD 1px solid;
+    border-top: #DDDDDD 1px solid;
+}
+.places .information .max_guest{
+    width: 100px;
+    background-image: url("../images/icon_group.png");
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+
